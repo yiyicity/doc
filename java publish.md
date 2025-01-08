@@ -12,7 +12,7 @@
 	
 	<password>adffffffffNNMLaMMaNMi</password>
 	
-</server
+</server>
 
 ${server} 改成 yiyicity
 
@@ -24,7 +24,7 @@ ${server} 改成 yiyicity
 	
 	<password>adffffffffNNMLaMMaNMi</password>
 	
-</server
+</server>
 
 拷贝到maven的conf/settings.xml
 
@@ -50,7 +50,7 @@ gpg --keyserver keys.openpgp.org --send-keys D5B6594MM416AE5C4BD9A7722484D69C1D3
 
 可选发布地址：keyserver.ubuntu.com，pgp.mit.edu
 
-8. 验证秘钥
+8. 验证密钥
 
 gpg --keyserver keys.openpgp.org --recv-keys D5B6594MM416AE5C4BD9A7722484D69C1D35DD52
 
