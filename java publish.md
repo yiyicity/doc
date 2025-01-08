@@ -16,7 +16,7 @@ ${server} 改成 yiyicity
 	<password>adffffffffNNMLaMMaNMi</password>
 </server
 拷贝到maven的conf/settings.xml
-5.进入GPG(https://gnupg.org/download/index.html)   -> GnuPG binary releases -> Gpg4win ->下载 -> 默认安装 -> 进入C:\Program Files (x86)\GnuPG\bin->cmd->输入命令
+5. 进入GPG(https://gnupg.org/download/index.html)   -> GnuPG binary releases -> Gpg4win ->下载 -> 默认安装 -> 进入C:\Program Files (x86)\GnuPG\bin->cmd->输入命令
 6. gpg --gen-key   依次输入名称，邮箱地址，名称直接用上面的yiyicity
    生成结果如下：
    pub   ed25519 2025-01-07 [SC] [expires: 2028-01-07]
@@ -33,4 +33,4 @@ gpg --keyserver keys.openpgp.org --recv-keys D5B6594MM416AE5C4BD9A7722484D69C1D3
 基本提示如下标识成功：
 gpg: key SDMMMDIXXSEA
 gpg: Total number processed: 1
-9. 发布JAR包，pom参考 
+9.  发布JAR包，pom参考 
